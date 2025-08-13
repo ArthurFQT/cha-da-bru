@@ -22,16 +22,22 @@ onValue(ref(database, "gifts"), (snapshot) => {
     const div = document.createElement("div");
     div.className = "gift";
     div.innerHTML = `
-      <h3>${gift.name}</h3>
-      ${
-        gift.reservedBy
-          ? `<p>Reservado por: <strong>${gift.reservedBy}</strong></p>`
-          : ""
-      }
-      <button ${gift.reservedBy ? "disabled" : ""} data-id="${id}">
-        ${gift.reservedBy ? "Já Reservado" : "Reservar"}
-      </button>
-    `;
+    <h3>${gift.name}</h3>
+    ${
+      gift.image
+        ? `<img src="${gift.image}" alt="${gift.name}" class="gift-img">`
+        : ""
+    }
+    ${gift.description ? `<p>${gift.description}</p>` : ""}
+    ${
+      gift.reservedBy
+        ? `<p>Reservado por: <strong>${gift.reservedBy}</strong></p>`
+        : ""
+    }
+    <button ${gift.reservedBy ? "disabled" : ""} data-id="${id}">
+      ${gift.reservedBy ? "Já Reservado" : "Reservar"}
+    </button>
+  `;
     giftListEl.appendChild(div);
   });
 

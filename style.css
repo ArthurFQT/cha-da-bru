@@ -47,3 +47,19 @@ h1 {
   padding: 20px;
   border-radius: 8px;
 }
+
+.confirm-btn {
+  background: #d81b60;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gift-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin: 10px 0;
+}

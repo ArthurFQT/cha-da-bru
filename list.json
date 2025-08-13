@@ -1,14 +1,16 @@
 {
   "gifts": {
-    "1": { "name": "Jogo de copos", "reservedBy": "" },
-    "2": { "name": "Toalha de banho", "reservedBy": "" },
-    "3": { "name": "Panela de pressão", "reservedBy": "" },
-    "4": { "name": "Travessa de vidro", "reservedBy": "" },
-    "5": { "name": "Conjunto de pratos", "reservedBy": "" },
-    "6": { "name": "Jogo de talheres", "reservedBy": "" },
-    "7": { "name": "Liquidificador", "reservedBy": "" },
-    "8": { "name": "Ferro de passar", "reservedBy": "" },
-    "9": { "name": "Pipoqueira", "reservedBy": "" },
-    "10": { "name": "Jogo de toalhas", "reservedBy": "" }
+    "1": {
+      "name": "Jogo de copos",
+      "description": "Conjunto com 6 copos de vidro, ideal para servir sucos e água.",
+      "image": "https://i.postimg.cc/xXPVRfJn/aviait.jpg",
+      "reservedBy": ""
+    },
+    "2": {
+      "name": "Toalha de banho",
+      "description": "Toalha macia, 100% algodão, tamanho grande.",
+      "image": "https://i.postimg.cc/v1HF2Jf9/img-dev.png",
+      "reservedBy": ""
+    }
   }
 }
