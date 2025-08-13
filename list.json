@@ -1,0 +1,14 @@
+{
+  "gifts": {
+    "1": { "name": "Jogo de copos", "reservedBy": "" },
+    "2": { "name": "Toalha de banho", "reservedBy": "" },
+    "3": { "name": "Panela de pressão", "reservedBy": "" },
+    "4": { "name": "Travessa de vidro", "reservedBy": "" },
+    "5": { "name": "Conjunto de pratos", "reservedBy": "" },
+    "6": { "name": "Jogo de talheres", "reservedBy": "" },
+    "7": { "name": "Liquidificador", "reservedBy": "" },
+    "8": { "name": "Ferro de passar", "reservedBy": "" },
+    "9": { "name": "Pipoqueira", "reservedBy": "" },
+    "10": { "name": "Jogo de toalhas", "reservedBy": "" }
+  }
+}

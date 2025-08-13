@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chá da Bru - Lista de Presentes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🎁 Chá da Bru - Lista de Presentes</h1>
+
+    <div id="gift-list"></div>
+
+    <!-- Modal para confirmar presente -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <h2 id="gift-name"></h2>
+        <input type="text" id="guest-name" placeholder="Seu nome" />
+        <button id="confirm-btn">Confirmar Presente</button>
+        <button id="close-btn">Cancelar</button>
+      </div>
+    </div>
+
+    <!-- Só esse script, pois agora tudo é importado em módulos -->
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
