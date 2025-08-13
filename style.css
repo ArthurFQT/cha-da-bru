@@ -91,3 +91,10 @@ h1 {
   border-radius: 5px;
   margin: 10px 0;
 }
+
+footer {
+  margin-top: 40px;
+  font-size: 0.85em;
+  color: #777;
+  text-align: center;
+}
