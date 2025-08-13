@@ -9,6 +9,13 @@ h1 {
   color: #d81b60;
 }
 
+#gift-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
 .gift {
   background: white;
   margin: 10px auto;
@@ -16,6 +23,10 @@ h1 {
   width: 300px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+   width: 90%;       /* mobile */
+  max-width: 300px; /* desktop */
+  box-sizing: border-box;
 }
 
 .gift button {
